@@ -18,7 +18,7 @@ void hx711_init(void)
 void weightdelay(void);
 void weightdelay(void)
 {
-#if(0)
+#if(1)
   u16 i=10;
   while(i--);
 #endif
