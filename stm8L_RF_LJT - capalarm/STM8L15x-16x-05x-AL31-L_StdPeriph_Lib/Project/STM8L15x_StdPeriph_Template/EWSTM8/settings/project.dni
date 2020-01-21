@@ -1,0 +1,50 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1168630505
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=u8[200]	4	0
+Fmt1=u8[255]	4	0
+Fmt2=u8[256]	5	0
+Fmt3=u8[6]	4	0
+[watch_formats]
+Fmt0={W}42:CSQ	3	0
+Fmt1={W}42:RF_IsrReg	4	0
+Fmt2={W}42:UartRxCount	3	0
+Fmt3={W}42:batvolt	3	0
+Fmt4={W}42:in_gpio_rf_value	1	0
+Fmt5={W}42:in_gpio_rf_value_send	1	0
+Fmt6={W}42:sendok	3	0
+Fmt7={W}42:waitnetokcount	3	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\nbiot_ljt.c}.1877.5" 1 0 0 0 "" 0 ""
+Count=1
+[Aliases]
+A0=_ "F:\stsw-stm8016\stsw-stm8016\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\main.c" ""
+Count=1
+SuppressDialog=0
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0
